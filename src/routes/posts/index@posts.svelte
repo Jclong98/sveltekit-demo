@@ -61,4 +61,10 @@
 		font-weight: bold;
 		margin: 0;
 	}
+
+	@media (max-width: 600px) {
+		.posts {
+			grid-template-columns: 1fr;
+		}
+	}
 </style>
